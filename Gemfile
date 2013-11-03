@@ -7,16 +7,12 @@ gem 'rails', '4.0.0'
 gem 'sqlite3'
 
 
-#Gems used only for assets and not required
-#in production environments by default.
-group :assets do
-  # Use SCSS for stylesheets
-  gem 'sass-rails', '~> 4.0.0'
-  # Use emberjs for JavaScript Framework
-  gem 'ember-rails', git: 'git://github.com/emberjs/ember-rails.git'
-  # Use Uglifier as compressor for JavaScript assets
-  gem 'uglifier', '>= 1.3.0'
-end
+# Use SCSS for stylesheets
+gem 'sass-rails', '~> 4.0.0'
+# Use emberjs for JavaScript Framework
+gem 'ember-rails', git: 'git://github.com/emberjs/ember-rails.git'
+# Use Uglifier as compressor for JavaScript assets
+gem 'uglifier', '>= 1.3.0'
 
 
 # Use CoffeeScript for .js.coffee assets and views
